@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Icons/Logo.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cine Data</title>
+</head>
+<body>
+    <header>
+        <h1>Cine Data</h1>
+    </header>
+
+    <main>
+        <div>
+            <div class="controle">
+                <input type="text" id="busca" placeholder="Buscar filme...">
+                <button id="btn-buscar"><img src="Icons/Lupa.svg" alt="buscar" class="icone-lupa"></button>
+                <select id="filtro-genero">
+                    <option value="todos">Todos os Gêneros</option>
+                    <option value="Ação">Ação</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Comédia">Comédia</option>
+                    <option value="Terror">Terror</option>
+                    <option value="Ficção Científica">Ficção Científica</option>
+                </select>
+
+                <select id="filtro-classificacao">
+                    <option value="todas">Todas as Classificações</option>
+                    <option value="Livre">Livre</option>
+                    <option value="10">10 anos</option>
+                    <option value="12">12 anos</option>
+                    <option value="14">14 anos</option>
+                    <option value="16">16 anos</option>
+                    <option value="18">18 anos</option>
+                </select>
+
+                <select id="filtro-ano">
+                    <option value="todos">Todos os Anos</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+            </div>
+        </div>
+        <div class="filmes" id="catalogo">
+            <div class="filme">
+                <img src="Capas/Vingadores Ultimato.webp" alt="Capa do filme Vingadores: Ultimato" class="capa-filme">
+                <h2>Vingadores: Ultimato</h2>
+                <p>Gênero: Ação</p>
+                <p>Classificação: 12 anos</p>   
+                <p>Ano: 2019</p>
+            </div>
+            
+            <div class="filme">
+                <img src="Capas/O Rei do Show.webp" alt="Capa do filme O Rei do Show" class="capa-filme">
+                <h2>O Rei do Show</h2>
+                <p>Gênero: Drama</p>
+                <p>Classificação: Livre</p>
+                <p>Ano: 2017</p>
+            </div>
+            
+            <div class="filme">
+                <img src="Capas/Deadpool.webp" alt="Capa do filme Deadpool" class="capa-filme">
+                <h2>Deadpool</h2>
+                <p>Gênero: Ação</p>
+                <p>Classificação: 18 anos</p>
+                <p>Ano: 2016</p>
+            </div>
+
+             <div class="filme">
+                <img src="Capas/As Branquelas.webp" alt="Capa do filme As Branquelas" class="capa-filme">
+                <h2>As Branquelas</h2>
+                <p>Gênero: Comédia</p>
+                <p>Classificação: 12 anos</p>
+                <p>Ano: 2004</p>
+            </div>
+            
+            <div class="filme">
+                <img src="Capas/Invocação do Mal.webp" alt="Capa do filme Invocação do Mal" class="capa-filme">
+                <h2>Invocação do Mal</h2>
+                <p>Gênero: Terror</p>
+                <p>Classificação: 16 anos</p>
+                <p>Ano: 2013</p>
+            </div>
+            
+            <div class="filme">
+                <img src="Capas/Oppenheimer.webp" alt="Capa do filme Oppenheimer" class="capa-filme">
+                <h2>Oppenheimer</h2>
+                <p>Gênero: Drama</p>
+                <p>Classificação: 16 anos</p>
+                <p>Ano: 2023</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/John Wick.webp" alt="Capa do filme John Wick" class="capa-filme">
+                <h2>John Wick</h2>
+                <p>Gênero: Ação</p>
+                <p>Classificação: 16 anos</p>
+                <p>Ano: 2014</p>
+            </div>
+            
+            <div class="filme">
+                <img src="Capas/Venom.webp" alt="Capa do filme Venom" class="capa-filme">
+                <h2>Venom</h2>
+                <p>Gênero: Ação</p>
+                <p>Classificação: 14 anos</p>
+                <p>Ano: 2018</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Homem-Aranha.webp" alt="Capa do filme Homem-Aranha" class="capa-filme">
+                <h2>Homem-Aranha</h2>
+                <p>Gênero: Ação</p>
+                <p>Classificação: Livre</p>
+                <p>Ano: 2002</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Homem-Aranha 2.webp" alt="Capa do filme Homem-Aranha 2" class="capa-filme">
+                <h2>Homem-Aranha 2</h2>
+                <p>Gênero: Ação</p>
+                <p>Classificação: Livre</p>
+                <p>Ano: 2004</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Homem-Aranha 3.webp" alt="Capa do filme Homem-Aranha 3" class="capa-filme">
+                <h2>Homem-Aranha 3</h2>
+                <p>Gênero: Ação</p>
+                <p>Classificação: 12 anos</p>
+                <p>Ano: 2007</p>
+            </div>
+
+             <div class="filme">
+                <img src="Capas/Halloween.webp" alt="Capa do filme Halloween" class="capa-filme">
+                <h2>Halloween</h2>
+                <p>Gênero: Terror</p>
+                <p>Classificação: 18 anos</p>
+                <p>Ano: 2018</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Sexta-Feira 13.webp" alt="Capa do filme Sexta-Feira 13" class="capa-filme">
+                <h2>Sexta-Feira 13</h2>
+                <p>Gênero: Terror</p>
+                <p>Classificação: 18 anos</p>
+                <p>Ano: 2009</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Blade Runner 2049.webp" alt="Capa do filme Blade Runner 2049" class="capa-filme">
+                <h2>Blade Runner 2049</h2>
+                <p>Gênero: Ficção Científica</p>
+                <p>Classificação: 14 anos</p>
+                <p>Ano: 2017</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Interestelar.webp" alt="Capa do filme Interestelar" class="capa-filme">
+                <h2>Interestelar</h2>
+                <p>Gênero: Ficção Científica</p>
+                <p>Classificação: 10 anos</p>
+                <p>Ano: 2014</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/À Espera de um Milagre.webp" alt="Capa do filme À Espera de um Milagre" class="capa-filme">
+                <h2>À Espera de um Milagre</h2>
+                <p>Gênero: Drama</p>
+                <p>Classificação: 14 anos</p>
+                <p>Ano: 2000</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Transformers.webp" alt="Capa do filme Transformers" class="capa-filme">
+                <h2>Transformers</h2>
+                <p>Gênero: Ficção Científica</p>
+                <p>Classificação: 10 anos</p>
+                <p>Ano: 2007</p>
+            </div>
+
+            <div class="filme">
+                <img src="Capas/Avatar.webp" alt="Capa do filme Avatar" class="capa-filme">
+                <h2>Avatar</h2>
+                <p>Gênero: Ficção Científica</p>
+                <p>Classificação: Livre</p>
+                <p>Ano: 2009</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
