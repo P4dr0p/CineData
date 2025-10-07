@@ -31,8 +31,7 @@ function mostrarFilmes(lista) {
   lista.forEach(filme => {
     const card = document.createElement("div");
     card.classList.add("filme");
-
-    // 👇 Verifica se o filme tem uma imagem (para não quebrar os outros)
+    
     const imagemHTML = filme.imagem
       ? `<img src="${filme.imagem}" alt="${filme.titulo}" class="capa-filme">`
       : "";
